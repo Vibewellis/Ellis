@@ -4,15 +4,82 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me | Ellis Ibizugbe</title>
-    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #00205B;
+            color: white;
+            text-align: center;
+        }
+        header {
+            background-color: #005DAA;
+            padding: 20px;
+            font-size: 24px;
+            font-weight: bold;
+            color: white;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #003366;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        .container {
+            padding: 40px;
+            text-align: center;
+        }
+        .section-title {
+            font-size: 28px;
+            margin-bottom: 20px;
+            color: #FFC72C;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #003366;
+            margin-top: 20px;
+        }
+        .profile-img {
+            width: 250px;
+            border-radius: 50%;
+            margin-top: 20px;
+        }
+    </style>
 </head>
 <body>
     <header>
+        <img src="Ricee logo.png" alt="Rice University Logo" class="logo">
         <h1>About Me</h1>
     </header>
-    <p>I am a junior at Rice University majoring in Finance and Sport Management. As a Division I Track & Field Student-Athlete specializing in hurdles, triple jump, and long jump...</p>
     <nav>
         <a href="index.html">Home</a>
+        <a href="resume.html">Resume</a>
+        <a href="projects.html">Projects</a>
+        <a href="track.html">Track</a>
+        <a href="contact.html">Contact</a>
     </nav>
+    
+    <div class="container">
+        <img src="pro.JPG" alt="Ellis Ibizugbe" class="profile-img">
+        <h2 class="section-title">Who I Am</h2>
+        <p>I am a junior at Rice University majoring in Finance and Sport Management. 
+           As a Division I Track & Field Student-Athlete specializing in hurdles, 
+           triple jump, and long jump, sports have always been a major part of my life. 
+           I have also developed a strong passion for business and strategy, leading me to various 
+           experiences in finance and sports operations. 
+           I’m excited to continue growing and making an impact in these fields.</p>
+    </div>
+
+    <footer>
+        &copy; 2025 Ellis Ibizugbe | Rice University
+    </footer>
 </body>
 </html>
