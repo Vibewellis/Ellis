@@ -4,25 +4,89 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Track & Field | Ellis Ibizugbe</title>
-    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #00205B;
+            color: white;
+            text-align: center;
+        }
+        header {
+            background-color: #005DAA;
+            padding: 20px;
+            font-size: 24px;
+            font-weight: bold;
+            color: white;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #003366;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        .container {
+            padding: 40px;
+            text-align: center;
+        }
+        .section-title {
+            font-size: 28px;
+            margin-bottom: 20px;
+            color: #FFC72C;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #003366;
+            margin-top: 20px;
+        }
+        .image-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .image-container img {
+            width: 40%;
+            border-radius: 10px;
+        }
+    </style>
 </head>
 <body>
     <header>
         <h1>Track & Field</h1>
     </header>
-    <p>As a member of Rice University's Division I Track & Field team, I specialize in hurdles, triple jump, and long jump...</p>
-    
-    <h3>Academic Honors</h3>
-    <ul>
-        <li>2022-23 C-USA Commissioner's Honor Roll</li>
-        <li>2023-24 Outdoor: Set a personal best in the triple jump at the J. Fred Duckett Twilight Meet, finishing ninth.</li>
-    </ul>
-    
-    <img src="Track picture.webp" alt="Ellis competing in track" style="width:50%;">
-    <img src="Track.jpeg" alt="Ellis track headshot" style="width:50%;">
-    
     <nav>
         <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="resume.html">Resume</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
     </nav>
+    
+    <div class="container">
+        <h2 class="section-title">Athletic Achievements</h2>
+        <p>As a member of Rice University's Division I Track & Field team, I specialize in hurdles, triple jump, and long jump. Competing at a high level has taught me discipline, resilience, and the importance of teamwork.</p>
+        <h3>Academic Honors</h3>
+        <ul>
+            <li>2022-23 C-USA Commissioner's Honor Roll</li>
+            <li>2023-24 Outdoor: Competed at four meets...Set a personal best in the triple jump at the J. Fred Duckett Twilight Meet, finishing ninth.</li>
+        </ul>
+        <div class="image-container">
+            <img src="Track picture.webp" alt="Ellis competing in track">
+            <img src="Track.jpeg" alt="Ellis track headshot">
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2025 Ellis Ibizugbe | Rice University
+    </footer>
 </body>
 </html>
